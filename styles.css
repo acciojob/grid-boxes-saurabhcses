@@ -3,7 +3,7 @@
 	display:grid;
      grid-template-rows: repeat(5, 124px); 
 	 grid-template-columns: repeat(4, 242.5px);
-	grid-gap: 5px;
+	grid-gap: 10px;
 }
 div{
 	background: green;
@@ -17,6 +17,7 @@ div{
 
 .item2 {
   grid-row: span 4 / auto;
+ 
 }
 
 .item3 {
