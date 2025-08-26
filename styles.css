@@ -2,7 +2,7 @@
 #grid{
 	display:grid;
 	grid-template-columns: 1fr 1fr 1fr 1f2;	
-	 grid-template-rows: 124px 124px 124px 124px 124px;
+	 grid-template-columns: repeat(4, 242.5px);
 	grid-gap: 5px;
 }
 div{
@@ -23,7 +23,7 @@ div{
   grid-column: 2 / 3;
 }
 .item4 {
-  grid-column: 3 / 5;
+  grid-column: span 2 / auto;
 }
 .item5 {
   grid-column: 2 / 4;
