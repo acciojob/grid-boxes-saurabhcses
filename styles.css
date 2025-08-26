@@ -1,7 +1,7 @@
 /*  your css code here. If applicable */
 #grid{
 	display:grid;
-	grid-template-columns: 1fr 1fr 1fr 1f2;	
+     grid-template-rows: repeat(5, 124px); 
 	 grid-template-columns: repeat(4, 242.5px);
 	grid-gap: 5px;
 }
